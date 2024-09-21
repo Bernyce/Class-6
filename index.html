@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" oninput="x.value=parseInt(a.value)+ parseInt(b.value) + parseInt(c.value)">
+        <fieldset>
+            <legend>Personal Details</legend>
+            <label for="">Name</label>
+            <input type="text" id="Name" ><br><br>
+            <label for="">Age</label>
+            <input type="text" id="Age"><br><br>
+            <label for="">Email address</label>
+            <input type="text" id="Email"><br><br>
+            <label for="">Gender:</label>
+            <input type="radio" id="Female"> Female
+            <input type="radio" id="Male"> Male <br><br>
+            <label for="">Favourite City:</label><br>
+            <input type="checkbox" id="city">Port Harcourt <br>
+            <input type="checkbox" id="city">Lagos <br>
+            <input type="checkbox" id = "city">Benin City <br>
+            <input type="checkbox" id = "city">Ibadan  <br><br>
+            <label for="">Birthday</label>
+            <input type="date" id = "Birthday"><br><br>
+            <label for="">Choose a subject</label>
+            <select name="" id="subject"> <!--This creates a dropdown-->
+                <option value="">Mathematics</option>
+                <option value="">Physics</option>
+                <option value="">Chemistry</option>
+                <option value="">Biology</option>
+                <option value="">English</option>
+                <option value="">Computer Science</option> 
+            </select><br><br>
+            <button>Submit</button>
+            <input type="submit"><br><br>
+            <input type="number" id="a" > +
+            <input type="number" id="b" > +
+            <input type="number" id ="c">
+            =
+            <output name ="x" for = "a b c"></output>
+        </fieldset>
+    </form>
+</body>
+</html>
